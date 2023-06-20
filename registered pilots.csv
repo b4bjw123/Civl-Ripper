@@ -1,8 +1,8 @@
-usa,M
 ned,M
 ksa,M
 ksa,M
 mkd,M
+usa,M
 cub,M
 cub,M
 ksa,M
@@ -36,12 +36,10 @@ slo,M
 kor,M
 srb,M
 kos,M
-bih,M
 col,M
 chn,M
 fra,M
 rou,M
-hun,M
 rou,M
 cub,M
 alb,M
@@ -55,6 +53,7 @@ chi,M
 chi,M
 srb,M
 bul,M
+slo,M
 pol,M
 cze,M
 chi,M
@@ -68,10 +67,13 @@ col,M
 chi,M
 chi,M
 cro,M
+hun,M
 pol,M
 cze,M
+hun,M
 rou,M
 ger,M
+slo,M
 cro,M
 esp,M
 mkd,M
@@ -105,7 +107,6 @@ cro,M
 chi,M
 ksa,M
 slo,M
-cub,M
 jpn,M
 chi,M
 esp,M
@@ -124,6 +125,7 @@ pol,M
 ger,M
 bul,M
 kos,M
+est,M
 cze,M
 cze,M
 esp,M
@@ -149,6 +151,8 @@ cro,F
 cro,F
 rou,F
 chi,F
+chn,F
+hun,F
 col,F
 cze,F
 fra,F

@@ -8,16 +8,18 @@ table = soup.table
 rows = table.find_all("tr")
 rows.pop(0)
 for row in rows:
-    country = row.find(attrs={"data-col":"ioc"}).get("data-value")
-    pilotJson.append([country,"M"])
+    if (row.find(attrs={"data-col":"status"}).get("data-value")!="cancelled"):
+        country = row.find(attrs={"data-col":"ioc"}).get("data-value")
+        pilotJson.append([country,"M"])
 
 table.decompose()
 table = soup.table
 rows = table.find_all("tr")
 rows.pop(0)
 for row in rows:
-    country = row.find(attrs={"data-col":"ioc"}).get("data-value")
-    pilotJson.append([country,"F"])
+    if (row.find(attrs={"data-col":"status"}).get("data-value")!="cancelled"):
+        country = row.find(attrs={"data-col":"ioc"}).get("data-value")
+        pilotJson.append([country,"F"])
 
 with open('registered pilots.csv', 'w', newline='') as file:
      writer = csv.writer(file)
